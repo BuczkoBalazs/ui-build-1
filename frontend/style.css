@@ -1,3 +1,4 @@
+/* CSS reset begins */
 * {
     margin: 0;
     padding: 0;
@@ -30,3 +31,22 @@
     appearance: none !important;
     border-radius: 0;
   }
+/*   CSS reset ends*/
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFEEDF;
+  }
+button{
+  display: block;
+  height: 240px;
+  width: 240px;
+  background-color: #1C5A4E;
+  color: #FFEEDF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200px;
+  text-align: center;
+}
